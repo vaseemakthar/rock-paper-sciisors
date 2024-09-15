@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>ROCK_PAPER GAME</title>
+        <link rel="stylesheet" href="rock_paper.css">
+  </head>
+  <body>
+   
+    <div class="game">
+      <center>
+      <p class="title">ROCK-PAPER-SCISSOR GAME</p>
+      </center>
+    <button class="image rok">
+      <img src="rock.png" class="b">
+    </button>
+    <button class="image pap"><img src="paper.png"class="b" ></button>
+    <button class="image sci"><img src="scissor.png" class="b"></button>
+    <p class="update"></p>
+    <p class="result">Yet to play</p>
+    <p class="move">Click Above Any Button To Play</p>
+    <button onclick="
+    ob.Win=0;
+    ob.Lose=0;
+    ob.Tie=0; 
+    localStorage.removeItem('ob');
+    up();
+    " class="res">Reset Score</button>
+    <button onclick="auto();">Auto Play</button>
+   </div>
+  <script src="rock_paper.js"></script>
+  </body>
+</html>
