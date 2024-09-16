@@ -56,3 +56,15 @@ body{
   background-color: rgb(204, 255, 18);
   transition: .9s;
  }
+ .reset-button{
+  background-color:rgb(202, 54, 190);
+  padding:10px 20px;
+  border:none;
+  outline:none;
+  color:#e6e2e2;
+  
+  cursor:pointer;
+  
+  border-radius: 12px;
+
+ }
